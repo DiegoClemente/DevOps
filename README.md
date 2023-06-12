@@ -25,7 +25,7 @@ Projeto implementando rundeck e watchdogs para execução de jobs através do ru
 
 ```bash
 # clonar repositório
-git clone https://github.com/DiegoClemente/workshop-springboot3-jpa.git
+git clone https://github.com/DiegoClemente/DevOps.git
 
 
 # Modificar projeto
