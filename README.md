@@ -46,5 +46,7 @@ jobs
 Sempre que uma alteração (Criação, Deleção, Alteração) for feita na pasta informada na variavel MONITORED_FOLDER no arquivo .py o job do rundeck configurado será chamado e executará. 
 O processo ficará em loop ate que seja trazido para o terminal em primeiro plano
 
+```bash
 fg %(N° do processo criado na etapa # Executando o arquivo)
+```
 e teclado Ctrl + C para finalizar o .py
