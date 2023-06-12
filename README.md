@@ -39,7 +39,10 @@ Lembre de alterar o arquivo api_rundeck_watchdog.py para alterar os dados inseri
 
 # Executando o arquivo .py
 
-Depois de todas as modificações com suas informações executar: ```bash python3 api_rundeck_watchdog.py & ```
+Depois de todas as modificações com suas informações executar: 
+```bash 
+python3 api_rundeck_watchdog.py & 
+```
 Isso fará o job no linux ficar em segundo plano para não segurar o terminal. Para ve-lo rodando execute:
 ```bash
 jobs
