@@ -27,8 +27,6 @@ Projeto implementando rundeck e watchdogs para execução de jobs através do ru
 # clonar repositório
 git clone https://github.com/DiegoClemente/workshop-springboot3-jpa.git
 
-# Acessar a pasta do projeto
-cd src
 
 # Modificar projeto
 vim api_rundeck_watchdog.py
