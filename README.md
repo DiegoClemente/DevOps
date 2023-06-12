@@ -47,6 +47,6 @@ Sempre que uma alteração (Criação, Deleção, Alteração) for feita na past
 O processo ficará em loop ate que seja trazido para o terminal em primeiro plano
 
 ```bash
-fg %(N° do processo criado na etapa # Executando o arquivo)
+fg %(N° do processo criado na execução do comando python3 api_rundeck_watchdog.py & (normalmente numero 1))
 ```
 e teclado Ctrl + C para finalizar o .py
