@@ -16,11 +16,6 @@ Projeto implementando rundeck e watchdogs para execução de jobs através do ru
   - Sistema Operacional Linux CentOs 7
  
 
-
-# Modelo de domínio:
-
-
-
 # Como executar o projeto:
 
 ```bash
@@ -45,3 +40,11 @@ Isso fará o job no linux ficar em segundo plano para não segurar o terminal. P
 ```bash
 jobs
 ```
+
+# OUTPUT
+
+Sempre que uma alteração (Criação, Deleção, Alteração) for feita na pasta informada na variavel MONITORED_FOLDER no arquivo .py o job do rundeck configurado será chamado e executará. 
+O processo ficará em loop ate que seja trazido para o terminal em primeiro plano
+
+fg %(N° do processo criado na etapa # Executando o arquivo)
+e teclado Ctrl + C para finalizar o .py
